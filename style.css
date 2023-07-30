@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url('bg.jpg') rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 10px 11%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.logo{
+    width: 150px;
+    height: 100px;
+}
+button{
+    border: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #bf0404;
+    transition: all 0.3s ease-in-out;
+}
+#Language{
+    font-size: 15px;
+    width: 115px;
+    height: 30px;
+    padding-left: 30px;
+    padding-bottom: 2px;
+    color: #fff;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #7e7c7c;
+}
+.search img{
+    width: 16px;
+    margin: 18px 0px 0px 8px;
+    position: absolute;
+}
+option{
+    font-size: 15px;
+    color: #000;
+}
+.hr-1{
+    border: 2px solid rgb(137, 134, 134);
+}
+.header-content{
+    position:relative;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 50px;
+}
+.header-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.header-content h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.header-content p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.email{
+    margin-left: -180px;
+}
+.email input{
+    width: 380px;
+    height: 58px;
+    padding: 8px 15px;
+    font-size: 17px;
+    border: #7e7c7c solid 1px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.email button{
+    height: 58px;
+    width: 170px;
+    background: #db0001;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    position:fixed;
+    margin-top: 0px;
+}
+.email button:hover{
+    background-color: #bf0404;
+    transition: all 0.3s ease-in-out;
+}
+.content{
+    font-size: 22px;
+    height: 90vh;
+    padding: 50px 12px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.text-col{
+    float: left;
+    width: 550px;
+}
+.text-col h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.img-col img{
+    width: 600px;
+    height: 420px;
+    float: right;
+}
+.content2{
+    margin: 50px 12px;
+    font-size: 22px;
+    height: 65vh;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.img-col2 img{
+    width: 520px;
+    height: 420px;
+    float: left;
+}
+.text-col2{
+    float: left;
+    width: 550px;
+}
+.text-col2 h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content3{
+    margin: 50px 12px;
+    font-size: 22px;
+    height: 65vh;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.text-col3{
+    float: left;
+    width: 550px;
+}
+.img-col3 img{
+    width: 520px;
+    height: 420px;
+    float: left;
+}
+.text-col3 h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.content4{
+    margin: 50px 12px;
+    font-size: 22px;
+    height: 65vh;
+}
+.row4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.text-col4{
+    float: right;
+    width: 550px;
+}
+.img-col4 img{
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+.text-col4 h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.FaQ{
+    margin: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.FaQ h2{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-top: 50px;
+}
+span{
+    text-decoration: underline;
+}
+.questions{
+    margin: 15px;
+    width: 100%;
+    max-width: 750px;
+}
+.questions li{
+    list-style: none;
+    width: 150%;
+    padding: 5px;
+}
+.questions li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.2s;
+}
+input[type="radio"]{
+    display: none;
+}
+.questions .answer{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s, padding 0.1s;
+}
+.questions input[type="radio"]:checked + label + .answer{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.questions input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.FaQ .email{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.FaQ .small{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.ftr-email{
+    margin-bottom: 70px;
+}
+.ftr-email input{
+    width: 380px;
+    height: 58px;
+    padding: 8px 15px;
+    font-size: 17px;
+    border: #7e7c7c solid 1px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.ftr-email button{
+    height: 58px;
+    width: 170px;
+    background: #db0001;
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.footer{
+    padding: 50px 15px 10px;
+    border-top: 6px solid #333;
+    color: #c2bfbf;
+    height: 60vh;
+}
+.ftr{
+    margin-left: 200px;
+}
+.footer h2{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.Col-1{
+    float: left;
+    width: 33%;
+    text-decoration: underline;
+    line-height: 12px;
+}
+.Col-2{
+    float: left;
+    width: 33%;
+    text-decoration: underline;
+    line-height: 12px;
+}
+.Col-3{
+    float: right;
+    width: 33%;
+    text-decoration: underline;
+    line-height: 12px;
+    display: block;
+}
+.Col-1 a, .Col-2 a, .Col-3 a{
+    display: block;
+    text-decoration: none;
+    color: #c2bfbf;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.select{
+    font-size: 15px;
+    width: 115px;
+    height: 30px;
+    padding-left: 30px;
+    padding-bottom: 2px;
+    color: #fff;
+    margin-top: 30px;
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #7e7c7c;
+}
+.ftr-search img{
+    width: 16px;
+    margin: 37px 0px 0px 8px;
+    position:absolute ;
+}
+.txt{
+    margin-top: 20px;
+}
